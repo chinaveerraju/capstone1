@@ -1,0 +1,117 @@
+body{
+    display: block;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: black;
+}
+
+
+.container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+h1{
+    color: blue;
+    font-size: 100px;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    
+}
+
+.heading-2{
+    color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.btm-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+}
+
+
+.mid-container{
+    margin-top: 50px;
+}
+
+.my-pic{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+ 
+.hello{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: blue;
+}
+.intro{
+    width: 300px;
+    margin: auto;
+    line-height: 2;
+}
+
+hr{
+    border: dotted;
+    width: 30px;
+    margin: 50px auto;
+}
+
+.my-skills{
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    column-gap: 0px;
+    row-gap: 2rem;
+}
+h4 ,h5{
+    color: #66bfbf;
+    font-size: larger;
+}
+
+.he2{
+    color: #11cdd4;
+    margin-top: 100px;
+}
+.para{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.btn{
+    background-color: #11cdd4;
+    border-radius: 8px;
+    color: #e4f9f5;
+    padding: 10px 20px 10px 20px;
+}
+.bot-container{
+    background-color: #66bfbf;
+    color: aliceblue;
+    font-size: medium;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 50px 0 50px;
+}
+a{
+    margin: 10px 20px;
+    text-decoration: none;
+}
